@@ -24,7 +24,7 @@
         validate_certs: no
       delegate_to: localhost
       register: results
-      no_log: true
+#      no_log: true
 
     - name: "Gather provision step information"
       set_fact:
